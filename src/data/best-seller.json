@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "title": "Premium LED Bulb",
+        "image": "/led/LEDPacks.jpg",
+        "desc": "A modern lighting solution for every home."
+    },
+    {
+        "id": 2,
+        "title": "Smart Ceiling Light",
+        "image": "/led/LEDDown5W.jpg",
+        "desc": "Illuminate your space with intelligent lighting."
+    },
+    {
+        "id": 3,
+        "title": "Cool Glow Tube Light",
+        "image": "/led/LEDTubeLight.jpg",
+        "desc": "Perfect for creating a cozy atmosphere."
+    }
+
+]

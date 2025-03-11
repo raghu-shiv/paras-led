@@ -1,0 +1,26 @@
+[
+    { 
+        "id": 1,
+        "image": "/decor/ambient-light.png",
+        "title": "Enhanced Ambiance",
+        "desc": "Our LED lights offer adjustable brightness and color temperatures, allowing you to create the perfect mood for any area within your establishment." 
+    },
+    {
+        "id": 2,
+        "image": "/decor/energy-savings.png",
+        "title": "Energy Savings",
+        "desc": "Reduce operational costs with our energy-efficient LED lighting, which consumes significantly less power than traditional lighting systems."
+    },
+    {
+        "id": 3,
+        "image": "/led/LEDCELLCircuit.jpg",
+        "title": "Durability",
+        "desc": "Designed for longevity, our LED lights withstand frequent use, ensuring consistent performance and reducing maintenance efforts."
+    },
+    {
+        "id": 4,
+        "image": "/decor/eco.png",
+        "title": "Eco-Friendly",
+        "desc": "Commit to sustainability with our environmentally friendly LED solutions that minimize carbon footprint and comply with green building standards."
+    }
+]

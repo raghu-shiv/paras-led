@@ -1,0 +1,25 @@
+[
+    {
+      "name": "Jay Maa Sharda General Store",
+      "location": "Souna, Saidpur, Ghazipur, UP",
+      "feedback": "The product quality is very good and it's a valuable product, 💯% replacement guaranteed.",
+      "rating": 5,
+      "image": "/feedback/jmsgs.png"
+    },
+    {
+      "name": "SURAJ ENTERPRISES",
+      "location": "Anauni, Saidpur, Ghazipur, UP",
+      "feedback":
+        "Customer satisfaction is very important for that dealer... customer visits on a weekly basis.",
+      "rating": 5,
+      "image": "/feedback/suraj_ent.png"
+    },
+    {
+      "name": "Vivek Electronics",
+      "location": "Anauni, Saidpur, Ghazipur, UP",
+      "feedback":
+        "Good quality and durable, high lumen, good packaging etc. Good service and guaranteed products.",
+      "rating": 5,
+      "image": "/feedback/vivek_elec.png"
+    }
+  ]
