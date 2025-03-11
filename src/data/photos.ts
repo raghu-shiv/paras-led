@@ -2,7 +2,7 @@ import type { Photo } from "react-photo-album";
 
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
-function assetPath(asset: string, width?: number) {
+function assetPath(asset: string) {
   return `led/${asset}`;
 }
 
@@ -141,7 +141,7 @@ const photos = [
       width,
       height,
       srcSet: breakpoints.map((breakpoint) => ({
-        src: assetPath(asset, breakpoint),
+        src: assetPath(asset),
         width: breakpoint,
         height: Math.round((height / width) * breakpoint),
       })),

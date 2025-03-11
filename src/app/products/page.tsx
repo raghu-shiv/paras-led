@@ -73,7 +73,7 @@ export default function Products() {
               {product.images.map((image, imgIndex) => (
                 <SwiperSlide key={imgIndex}>
                   <Image
-                    src={image}
+                    src={`/${image}`}
                     alt={product.title}
                     width={500}
                     height={500}
