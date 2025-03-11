@@ -8,7 +8,7 @@ function assetPath(asset: string) {
 
 const photos = [
   {
-    asset: "LEDCapLight.jpg",
+    asset: "LEDCAPLight.jpg",
     width: 1080,
     height: 780,
     alt: "LED Cap Light",
