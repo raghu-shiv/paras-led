@@ -51,7 +51,7 @@ export default function About() {
             </h1>
             <p className="text-lg sm:text-xl leading-relaxed">
               Founded in{" "}
-              <strong>2025, Paras LED Lights Production House</strong> is
+              <strong>2024, Paras LED Lights Production House</strong> is
               committed to delivering high-quality, energy-efficient LED
               lighting solutions. Our products are designed to meet the diverse
               needs of residential, commercial, and industrial spaces, ensuring

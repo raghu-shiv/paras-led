@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import Divider from "./Divider";
 import Image from "next/image";
 
@@ -24,10 +23,12 @@ export default function Footer() {
 
       {/* Footer Content */}
       <div className="relative z-30 container mx-auto px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center md:text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-center md:text-left">
           {/* Column 1: Brand Name */}
           <div className="flex items-center justify-center md:justify-start">
-            <h1 className="text-6xl sm:text-4xl font-bold">Paras LED Lights</h1>
+            <h1 className="text-6xl sm:text-4xl md:text-5xl font-bold">
+              Paras LED Lights
+            </h1>
           </div>
 
           {/* Column 2: Navigation Links */}
@@ -62,33 +63,19 @@ export default function Footer() {
               <p>Lalganj</p>
             </div>
           </div>
-
-          {/* Column 4: Social Media Icons */}
-          <div className="flex justify-center md:justify-end gap-4">
-            {[
-              { href: "https://facebook.com", icon: <FaFacebook /> },
-              { href: "https://instagram.com", icon: <FaInstagram /> },
-              { href: "https://youtube.com", icon: <FaYoutube /> },
-              { href: "https://wa.me/918090848008", icon: <FaWhatsapp /> },
-            ].map(({ href, icon }, index) => (
-              <Link
-                key={index}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary text-2xl sm:text-3xl hover:text-[#5a3a29] transition"
-              >
-                {icon}
-              </Link>
-            ))}
-          </div>
         </div>
       </div>
 
       <Divider />
       {/* Copyright */}
       <p className="text-sm sm:text-base">
-        &copy; 2025 Paras LED Lights Production House. All rights reserved.
+        &copy; 2025{" "}
+        <Link href="https://roxxoninfo.com/" passHref legacyBehavior>
+          <a className="underline" target="_blank">
+            Roxxon Infotech
+          </a>
+        </Link>
+        . All rights reserved.
       </p>
     </footer>
   );

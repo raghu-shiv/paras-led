@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import WhatsAppWidget from "@/components/WhatsAppWidget";
 
 const lora = Lora({
   variable: "--font-lora",
@@ -50,6 +51,7 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
         </div>
+        <WhatsAppWidget />
       </body>
     </html>
   );

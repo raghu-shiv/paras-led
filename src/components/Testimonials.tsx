@@ -22,7 +22,7 @@ export function Testimonials() {
           animate={{ x: "-100%" }}
           transition={{
             ease: "linear",
-            duration: 20, // Adjust speed of scrolling
+            duration: 15, // Adjust speed of scrolling
             repeat: Infinity,
           }}
         >
@@ -32,7 +32,7 @@ export function Testimonials() {
               whileHover={{ scale: 1.05 }}
               className="min-w-[300px] sm:min-w-[350px] p-6 bg-white shadow-lg rounded-xl"
             >
-              {/* User Avatar */}
+              {/* User Image */}
               <Image
                 src={testimonial.image}
                 alt={testimonial.name}
