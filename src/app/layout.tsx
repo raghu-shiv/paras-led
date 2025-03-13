@@ -36,13 +36,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${poppins.variable} ${lora.variable} antialiased`}
+        className={`${playfair.variable} ${poppins.variable} ${lora.variable} antialiased overflow-x-hidden`}
       >
         <Image
           src="/decor/Asset3.png"
           width={500}
           height={500}
-          className="absolute top-5 left-1/2 transform -translate-x-1/2 w-lg md:w-md rotate-12"
+          className="absolute top-5 left-1/2 transform -translate-x-1/2 w-lg md:w-md sm:w-sm"
           alt="Decorative Element"
         />
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="relative bg-[#edeae3] text-primary text-center p-6 sm:p-8 lg:p-10">
+    <footer className="relative bg-[#edeae3] text-primary text-center p-6 sm:p-8 lg:p-10 overflow-x-hidden">
       {/* Decorative Elements */}
       <Image
         src="/decor/Asset6.png"
@@ -70,11 +70,14 @@ export default function Footer() {
       {/* Copyright */}
       <p className="text-sm sm:text-base">
         &copy; 2025{" "}
-        <Link href="https://roxxoninfo.com/" passHref legacyBehavior>
-          <a className="underline" target="_blank">
-            Roxxon Infotech
-          </a>
-        </Link>
+        <a
+          href="https://roxxoninfo.com/"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Roxxon Infotech
+        </a>
         . All rights reserved.
       </p>
     </footer>

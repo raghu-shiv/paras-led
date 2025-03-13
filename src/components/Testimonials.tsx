@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export function Testimonials() {
   return (
-    <section className="p-6 sm:p-10 bg-transparent text-center overflow-hidden">
+    <section className="py-6 sm:py-10 bg-transparent text-center overflow-hidden">
       {/* Section Heading */}
       <h2 className="text-[#241F19] text-lg font-bold mb-4">Testimonials</h2>
       <h1 className="font-semibold text-4xl sm:text-5xl text-primary mb-8">

@@ -12,7 +12,7 @@ export function BestSellers() {
         src="/decor/Asset4.png"
         width={500}
         height={500}
-        className="absolute bottom-[25%] sm:bottom-[50%] left-[10%] sm:left-[15%] md:left-[20%] lg:left-[25%] w-2xl md:w-xl -rotate-6"
+        className="absolute bottom-[25%] sm:bottom-[50%] left-[10%] sm:left-[15%] md:left-[20%] lg:left-[25%] w-xs md:w-xl"
         alt="Decorative Element"
       />
 
